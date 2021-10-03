@@ -13,8 +13,8 @@ namespace HomeWork1_Task2
     {
         static void Main(string[] args)
         {
-            int mass = Input.ReadInt("Введите Вашу массу");
-            int height = Input.ReadInt("Введите Ваш рост");
+            double mass = Input.ReadDouble("Введите Вашу массу");
+            double height = Input.ReadDouble("Введите Ваш рост");
 
             Console.WriteLine($"Индекс массы тела = {mass / (Math.Pow(height, 2))}");
             Console.ReadLine();
